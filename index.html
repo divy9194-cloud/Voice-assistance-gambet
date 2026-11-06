@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b0d12">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+<title>Gambet Voice Assistant - by Divyanshu Kumar</title>
+</head>
+<body>
+<section id="login">
+  <div class="orb"></div>
+  <h1 id="ltitle">Sign in</h1>
+  <small>Gambet - your voice assistant</small>
+  <div id="fields">
+    <input id="email" type="email" placeholder="Email" autocomplete="username">
+    <input id="pass" type="password" placeholder="Password (6+ characters)" autocomplete="current-password">
+  </div>
+  <button id="go">Sign in</button>
+  <p id="toggle">New here? Create account</p>
+  <small id="err"></small>
+  <p class="dev">Developed by Divyanshu Kumar</p>
+</section>
+<section id="app" hidden>
+  <header><span>✦ Gambet</span><button id="out">Log out</button></header>
+  <div id="chat"></div>
+  <div class="dev">Developed by Divyanshu Kumar</div>
+  <footer>
+    <button id="hf" title="Hands-free">👂</button>
+    <button id="mic" title="Speak">🎤</button>
+  </footer>
+</section>
+<script src="app.js"></script>
+</body>
+</html>
